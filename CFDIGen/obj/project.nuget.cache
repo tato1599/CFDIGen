@@ -1,0 +1,492 @@
+{
+  "version": 2,
+  "dgSpecHash": "5ZtGyu8bGH6vWYoJjG66nzi1GnPFIeb9pQaNEzJtnAXEO4bDnf9VIvm1vaFMXaruGEdm0565B0Zp73IcJrlAJg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\esemi\\source\\repos\\CFDIGen\\CFDIGen\\CFDIGen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.1\\microsoft.windows.sdk.buildtools.10.0.22621.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CFDIGen depende de Microsoft.Windows.SDK.BuildTools (>= 10.0.22000.194), pero no se encontró Microsoft.Windows.SDK.BuildTools 10.0.22000.194. Se resolvió una mejor coincidencia aproximada de Microsoft.Windows.SDK.BuildTools 10.0.22621.1.",
+      "libraryId": "Microsoft.Windows.SDK.BuildTools",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041",
+        "net6.0-windows10.0.19041/android-arm",
+        "net6.0-windows10.0.19041/android-arm64",
+        "net6.0-windows10.0.19041/android-x64",
+        "net6.0-windows10.0.19041/android-x86",
+        "net6.0-windows10.0.19041/iossimulator-x64",
+        "net6.0-windows10.0.19041/maccatalyst-x64",
+        "net6.0-windows10.0.19041/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Dependencies. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Dependencies",
+      "targetGraphs": [
+        "net6.0-android31.0",
+        "net6.0-android31.0/android-arm",
+        "net6.0-android31.0/android-arm64",
+        "net6.0-android31.0/android-x64",
+        "net6.0-android31.0/android-x86",
+        "net6.0-android31.0/iossimulator-x64",
+        "net6.0-android31.0/maccatalyst-x64",
+        "net6.0-android31.0/win10-x64",
+        "net6.0-ios16.1",
+        "net6.0-ios16.1/android-arm",
+        "net6.0-ios16.1/android-arm64",
+        "net6.0-ios16.1/android-x64",
+        "net6.0-ios16.1/android-x86",
+        "net6.0-ios16.1/iossimulator-x64",
+        "net6.0-ios16.1/maccatalyst-x64",
+        "net6.0-ios16.1/win10-x64",
+        "net6.0-maccatalyst16.1",
+        "net6.0-maccatalyst16.1/android-arm",
+        "net6.0-maccatalyst16.1/android-arm64",
+        "net6.0-maccatalyst16.1/android-x64",
+        "net6.0-maccatalyst16.1/android-x86",
+        "net6.0-maccatalyst16.1/iossimulator-x64",
+        "net6.0-maccatalyst16.1/maccatalyst-x64",
+        "net6.0-maccatalyst16.1/win10-x64",
+        "net6.0-windows10.0.19041",
+        "net6.0-windows10.0.19041/android-arm",
+        "net6.0-windows10.0.19041/android-arm64",
+        "net6.0-windows10.0.19041/android-x64",
+        "net6.0-windows10.0.19041/android-x86",
+        "net6.0-windows10.0.19041/iossimulator-x64",
+        "net6.0-windows10.0.19041/maccatalyst-x64",
+        "net6.0-windows10.0.19041/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Extensions. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Extensions",
+      "targetGraphs": [
+        "net6.0-android31.0",
+        "net6.0-android31.0/android-arm",
+        "net6.0-android31.0/android-arm64",
+        "net6.0-android31.0/android-x64",
+        "net6.0-android31.0/android-x86",
+        "net6.0-android31.0/iossimulator-x64",
+        "net6.0-android31.0/maccatalyst-x64",
+        "net6.0-android31.0/win10-x64",
+        "net6.0-ios16.1",
+        "net6.0-ios16.1/android-arm",
+        "net6.0-ios16.1/android-arm64",
+        "net6.0-ios16.1/android-x64",
+        "net6.0-ios16.1/android-x86",
+        "net6.0-ios16.1/iossimulator-x64",
+        "net6.0-ios16.1/maccatalyst-x64",
+        "net6.0-ios16.1/win10-x64",
+        "net6.0-maccatalyst16.1",
+        "net6.0-maccatalyst16.1/android-arm",
+        "net6.0-maccatalyst16.1/android-arm64",
+        "net6.0-maccatalyst16.1/android-x64",
+        "net6.0-maccatalyst16.1/android-x86",
+        "net6.0-maccatalyst16.1/iossimulator-x64",
+        "net6.0-maccatalyst16.1/maccatalyst-x64",
+        "net6.0-maccatalyst16.1/win10-x64",
+        "net6.0-windows10.0.19041",
+        "net6.0-windows10.0.19041/android-arm",
+        "net6.0-windows10.0.19041/android-arm64",
+        "net6.0-windows10.0.19041/android-x64",
+        "net6.0-windows10.0.19041/android-x86",
+        "net6.0-windows10.0.19041/iossimulator-x64",
+        "net6.0-windows10.0.19041/maccatalyst-x64",
+        "net6.0-windows10.0.19041/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete System.Runtime.InteropServices.NFloat.Internal. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Runtime.InteropServices.NFloat.Internal",
+      "targetGraphs": [
+        "net6.0-ios16.1",
+        "net6.0-ios16.1/android-arm",
+        "net6.0-ios16.1/android-arm64",
+        "net6.0-ios16.1/android-x64",
+        "net6.0-ios16.1/android-x86",
+        "net6.0-ios16.1/iossimulator-x64",
+        "net6.0-ios16.1/maccatalyst-x64",
+        "net6.0-ios16.1/win10-x64",
+        "net6.0-maccatalyst16.1",
+        "net6.0-maccatalyst16.1/android-arm",
+        "net6.0-maccatalyst16.1/android-arm64",
+        "net6.0-maccatalyst16.1/android-x64",
+        "net6.0-maccatalyst16.1/android-x86",
+        "net6.0-maccatalyst16.1/iossimulator-x64",
+        "net6.0-maccatalyst16.1/maccatalyst-x64",
+        "net6.0-maccatalyst16.1/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Essentials.Ref.android. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Essentials.Ref.android",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Android.Runtime.31.android-x86. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Android.Runtime.31.android-x86",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Controls.Ref.android. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Controls.Ref.android",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Core.Runtime.android. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Core.Runtime.android",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Android.Runtime.31.android-x64. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Android.Runtime.31.android-x64",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Android.Runtime.31.android-arm64. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Android.Runtime.31.android-arm64",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Controls.Runtime.android. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Controls.Runtime.android",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.AspNetCore.App.Runtime.linux-arm. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.linux-arm",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Core.Ref.android. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Core.Ref.android",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Android.Ref.31. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Android.Ref.31",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Android.Runtime.31.android-arm. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Android.Runtime.31.android-arm",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Essentials.Runtime.android. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Essentials.Runtime.android",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.AspNetCore.App.Runtime.linux-arm64. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.linux-arm64",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.AspNetCore.App.Runtime.linux-x64. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+      "targetGraphs": [
+        "net6.0-android31.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Controls.Runtime.ios. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Controls.Runtime.ios",
+      "targetGraphs": [
+        "net6.0-ios16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Essentials.Ref.ios. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Essentials.Ref.ios",
+      "targetGraphs": [
+        "net6.0-ios16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Core.Ref.ios. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Core.Ref.ios",
+      "targetGraphs": [
+        "net6.0-ios16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.iOS.Ref. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.iOS.Ref",
+      "targetGraphs": [
+        "net6.0-ios16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Controls.Ref.ios. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Controls.Ref.ios",
+      "targetGraphs": [
+        "net6.0-ios16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Essentials.Runtime.ios. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Essentials.Runtime.ios",
+      "targetGraphs": [
+        "net6.0-ios16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.iOS.Runtime.iossimulator-x64. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.iOS.Runtime.iossimulator-x64",
+      "targetGraphs": [
+        "net6.0-ios16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Core.Runtime.ios. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Core.Runtime.ios",
+      "targetGraphs": [
+        "net6.0-ios16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Controls.Ref.maccatalyst. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Controls.Ref.maccatalyst",
+      "targetGraphs": [
+        "net6.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.MacCatalyst.Runtime.maccatalyst-x64. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64",
+      "targetGraphs": [
+        "net6.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Essentials.Ref.maccatalyst. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Essentials.Ref.maccatalyst",
+      "targetGraphs": [
+        "net6.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.MacCatalyst.Ref. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.MacCatalyst.Ref",
+      "targetGraphs": [
+        "net6.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Core.Runtime.maccatalyst. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Core.Runtime.maccatalyst",
+      "targetGraphs": [
+        "net6.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Controls.Runtime.maccatalyst. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Controls.Runtime.maccatalyst",
+      "targetGraphs": [
+        "net6.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Core.Ref.maccatalyst. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Core.Ref.maccatalyst",
+      "targetGraphs": [
+        "net6.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Essentials.Runtime.maccatalyst. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Essentials.Runtime.maccatalyst",
+      "targetGraphs": [
+        "net6.0-maccatalyst16.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Essentials.Ref.win. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Essentials.Ref.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Core.Runtime.win. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Core.Runtime.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Windows.SDK.NET.Ref. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Windows.SDK.NET.Ref",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.AspNetCore.App.Runtime.win-x64. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Controls.Ref.win. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Controls.Ref.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Core.Ref.win. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Core.Ref.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Essentials.Runtime.win. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Essentials.Runtime.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.WindowsDesktop.App.Runtime.win-x64. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.NETCore.App.Runtime.win-x64. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Maui.Controls.Runtime.win. No existe ningún paquete con este id. en los orígenes: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Maui.Controls.Runtime.win",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041"
+      ]
+    }
+  ]
+}
